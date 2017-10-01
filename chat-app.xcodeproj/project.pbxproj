@@ -20,6 +20,7 @@
 		70ED12F31F80485800F17481 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED12F21F80485800F17481 /* GradientView.swift */; };
 		70ED12F61F817FA800F17481 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED12F51F817FA800F17481 /* Constants.swift */; };
 		70ED12F81F81848B00F17481 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED12F71F81848B00F17481 /* LoginVC.swift */; };
+		70ED12FA1F818C7900F17481 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED12F91F818C7900F17481 /* CreateAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		70ED12F21F80485800F17481 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		70ED12F51F817FA800F17481 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		70ED12F71F81848B00F17481 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		70ED12F91F818C7900F17481 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		F92886E0E90C93D56018317A /* Pods-chat-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chat-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-chat-app/Pods-chat-app.release.xcconfig"; sourceTree = "<group>"; };
 		FE38EF2D033B48F4D0655E97 /* Pods_chat_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chat_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -173,6 +175,7 @@
 				70ED12ED1F8023FF00F17481 /* ChatVC.swift */,
 				70ED12EF1F80241C00F17481 /* ChannelVC.swift */,
 				70ED12F71F81848B00F17481 /* LoginVC.swift */,
+				70ED12F91F818C7900F17481 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 			files = (
 				70ED12EE1F8023FF00F17481 /* ChatVC.swift in Sources */,
 				70ED12F01F80241C00F17481 /* ChannelVC.swift in Sources */,
+				70ED12FA1F818C7900F17481 /* CreateAccountVC.swift in Sources */,
 				70ED12F81F81848B00F17481 /* LoginVC.swift in Sources */,
 				70ED12F31F80485800F17481 /* GradientView.swift in Sources */,
 				70ED12B91F801C1100F17481 /* AppDelegate.swift in Sources */,
