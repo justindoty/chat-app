@@ -18,6 +18,8 @@
 		70ED12F01F80241C00F17481 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED12EF1F80241C00F17481 /* ChannelVC.swift */; };
 		70ED12F11F802B2900F17481 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED12E81F80204700F17481 /* SWRevealViewController.m */; };
 		70ED12F31F80485800F17481 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED12F21F80485800F17481 /* GradientView.swift */; };
+		70ED12F61F817FA800F17481 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED12F51F817FA800F17481 /* Constants.swift */; };
+		70ED12F81F81848B00F17481 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED12F71F81848B00F17481 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		70ED12ED1F8023FF00F17481 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		70ED12EF1F80241C00F17481 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		70ED12F21F80485800F17481 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		70ED12F51F817FA800F17481 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		70ED12F71F81848B00F17481 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F92886E0E90C93D56018317A /* Pods-chat-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chat-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-chat-app/Pods-chat-app.release.xcconfig"; sourceTree = "<group>"; };
 		FE38EF2D033B48F4D0655E97 /* Pods_chat_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chat_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,6 +125,7 @@
 		70ED12B71F801C1100F17481 /* chat-app */ = {
 			isa = PBXGroup;
 			children = (
+				70ED12F41F817F8600F17481 /* Utilities */,
 				70ED12EC1F8023E100F17481 /* Model */,
 				70ED12EB1F8023DA00F17481 /* View */,
 				70ED12EA1F8023CE00F17481 /* Controller */,
@@ -167,6 +172,7 @@
 			children = (
 				70ED12ED1F8023FF00F17481 /* ChatVC.swift */,
 				70ED12EF1F80241C00F17481 /* ChannelVC.swift */,
+				70ED12F71F81848B00F17481 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +190,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		70ED12F41F817F8600F17481 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				70ED12F51F817FA800F17481 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		CDF3516F7EA594DC5CAA0E49 /* Frameworks */ = {
@@ -382,9 +396,11 @@
 			files = (
 				70ED12EE1F8023FF00F17481 /* ChatVC.swift in Sources */,
 				70ED12F01F80241C00F17481 /* ChannelVC.swift in Sources */,
+				70ED12F81F81848B00F17481 /* LoginVC.swift in Sources */,
 				70ED12F31F80485800F17481 /* GradientView.swift in Sources */,
 				70ED12B91F801C1100F17481 /* AppDelegate.swift in Sources */,
 				70ED12F11F802B2900F17481 /* SWRevealViewController.m in Sources */,
+				70ED12F61F817FA800F17481 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
