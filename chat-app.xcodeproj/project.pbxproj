@@ -10,6 +10,7 @@
 		1B7656EE945E6C7545BA4CA8 /* Pods_chat_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE38EF2D033B48F4D0655E97 /* Pods_chat_app.framework */; };
 		70735B0E1F9C131500891927 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70735B0D1F9C131500891927 /* AuthService.swift */; };
 		70735B101F9D2CBD00891927 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70735B0F1F9D2CBD00891927 /* RoundedButton.swift */; };
+		70735B121F9D3F1600891927 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70735B111F9D3F1600891927 /* UserDataService.swift */; };
 		70ED12B91F801C1100F17481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED12B81F801C1100F17481 /* AppDelegate.swift */; };
 		70ED12BE1F801C1100F17481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70ED12BC1F801C1100F17481 /* Main.storyboard */; };
 		70ED12C01F801C1100F17481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70ED12BF1F801C1100F17481 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		4A98118CA8EB977BE0B5C04D /* Pods-chat-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chat-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chat-app/Pods-chat-app.debug.xcconfig"; sourceTree = "<group>"; };
 		70735B0D1F9C131500891927 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		70735B0F1F9D2CBD00891927 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		70735B111F9D3F1600891927 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		70ED12B51F801C1100F17481 /* chat-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chat-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70ED12B81F801C1100F17481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70ED12BD1F801C1100F17481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				70735B0D1F9C131500891927 /* AuthService.swift */,
+				70735B111F9D3F1600891927 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				70ED12EE1F8023FF00F17481 /* ChatVC.swift in Sources */,
 				70735B101F9D2CBD00891927 /* RoundedButton.swift in Sources */,
 				70ED12F01F80241C00F17481 /* ChannelVC.swift in Sources */,
+				70735B121F9D3F1600891927 /* UserDataService.swift in Sources */,
 				70ED12FA1F818C7900F17481 /* CreateAccountVC.swift in Sources */,
 				70735B0E1F9C131500891927 /* AuthService.swift in Sources */,
 				70ED12F81F81848B00F17481 /* LoginVC.swift in Sources */,
