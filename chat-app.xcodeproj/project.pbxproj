@@ -10,6 +10,7 @@
 		1B7656EE945E6C7545BA4CA8 /* Pods_chat_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE38EF2D033B48F4D0655E97 /* Pods_chat_app.framework */; };
 		700C503F1FA407CB005CC4D0 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700C503E1FA407CB005CC4D0 /* AvatarPickerVC.swift */; };
 		700C50411FA40FBC005CC4D0 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700C50401FA40FBC005CC4D0 /* AvatarCell.swift */; };
+		700C50431FA67B73005CC4D0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700C50421FA67B73005CC4D0 /* CircleImage.swift */; };
 		70735B0E1F9C131500891927 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70735B0D1F9C131500891927 /* AuthService.swift */; };
 		70735B101F9D2CBD00891927 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70735B0F1F9D2CBD00891927 /* RoundedButton.swift */; };
 		70735B121F9D3F1600891927 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70735B111F9D3F1600891927 /* UserDataService.swift */; };
@@ -49,6 +50,7 @@
 		4A98118CA8EB977BE0B5C04D /* Pods-chat-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chat-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chat-app/Pods-chat-app.debug.xcconfig"; sourceTree = "<group>"; };
 		700C503E1FA407CB005CC4D0 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		700C50401FA40FBC005CC4D0 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		700C50421FA67B73005CC4D0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		70735B0D1F9C131500891927 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		70735B0F1F9D2CBD00891927 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		70735B111F9D3F1600891927 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				70ED12F21F80485800F17481 /* GradientView.swift */,
 				70735B0F1F9D2CBD00891927 /* RoundedButton.swift */,
 				700C50401FA40FBC005CC4D0 /* AvatarCell.swift */,
+				700C50421FA67B73005CC4D0 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				70ED12EE1F8023FF00F17481 /* ChatVC.swift in Sources */,
 				700C503F1FA407CB005CC4D0 /* AvatarPickerVC.swift in Sources */,
 				70735B101F9D2CBD00891927 /* RoundedButton.swift in Sources */,
+				700C50431FA67B73005CC4D0 /* CircleImage.swift in Sources */,
 				70ED12F01F80241C00F17481 /* ChannelVC.swift in Sources */,
 				70735B121F9D3F1600891927 /* UserDataService.swift in Sources */,
 				70ED12FA1F818C7900F17481 /* CreateAccountVC.swift in Sources */,
