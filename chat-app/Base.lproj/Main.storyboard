@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -82,7 +82,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#general" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y86-Kd-m3M">
-                                                    <rect key="frame" x="28" y="12.5" width="65.5" height="20"/>
+                                                    <rect key="frame" x="35" y="12.5" width="65.5" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -115,6 +115,7 @@
                             <constraint firstItem="sOg-bV-5xT" firstAttribute="leading" secondItem="t69-7Z-J8B" secondAttribute="leading" constant="16" id="Qwe-IM-sSp"/>
                             <constraint firstItem="Mc7-3X-bgq" firstAttribute="centerY" secondItem="m9Y-On-XR4" secondAttribute="centerY" id="Snc-Zq-DX0"/>
                             <constraint firstItem="sOg-bV-5xT" firstAttribute="top" secondItem="t69-7Z-J8B" secondAttribute="top" constant="24" id="YHe-8s-9FR"/>
+                            <constraint firstItem="Mc7-3X-bgq" firstAttribute="leading" secondItem="m9Y-On-XR4" secondAttribute="trailing" constant="20" id="ZQv-nd-vpX"/>
                             <constraint firstItem="z47-6U-CrD" firstAttribute="leading" secondItem="t69-7Z-J8B" secondAttribute="leading" constant="16" id="efB-SC-pyu"/>
                             <constraint firstItem="qRk-Fc-l43" firstAttribute="centerY" secondItem="z47-6U-CrD" secondAttribute="centerY" id="fDH-m0-EQC"/>
                             <constraint firstItem="z47-6U-CrD" firstAttribute="top" secondItem="sOg-bV-5xT" secondAttribute="bottom" constant="20" id="hiG-Un-Xtq"/>
@@ -125,6 +126,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="Mc7-3X-bgq" id="X4g-hi-jER"/>
+                        <outlet property="userImg" destination="m9Y-On-XR4" id="Di9-JL-i0k"/>
                         <segue destination="zHe-Tc-KtX" kind="show" identifier="toLogin" id="WQH-Oa-WM7"/>
                     </connections>
                 </viewController>
@@ -194,6 +196,9 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="zHe-Tc-KtX" eventType="touchUpInside" id="AoT-Xw-HhB"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="ypx-qF-ywo">
                                 <rect key="frame" x="62" y="160" width="250" height="86"/>
@@ -234,13 +239,19 @@
                                     </view>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="wTf-ij-NKa">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="jJm-oW-O7w" firstAttribute="top" secondItem="ypx-qF-ywo" secondAttribute="bottom" constant="40" id="6Mm-1o-MKY"/>
+                            <constraint firstItem="wTf-ij-NKa" firstAttribute="centerY" secondItem="V8p-GH-EV2" secondAttribute="centerY" constant="-100" id="6lk-ZE-zcJ"/>
                             <constraint firstItem="zuP-Zj-p4a" firstAttribute="top" secondItem="jJm-oW-O7w" secondAttribute="bottom" id="DPQ-FY-X6E"/>
                             <constraint firstItem="7Lr-Ys-Pkd" firstAttribute="top" secondItem="gtS-cw-5DW" secondAttribute="top" constant="60" id="HoX-RL-DW0"/>
                             <constraint firstItem="jJm-oW-O7w" firstAttribute="centerX" secondItem="V8p-GH-EV2" secondAttribute="centerX" id="M0g-Mp-cR8"/>
+                            <constraint firstItem="wTf-ij-NKa" firstAttribute="centerX" secondItem="V8p-GH-EV2" secondAttribute="centerX" id="MHC-w9-IF7"/>
                             <constraint firstItem="ypx-qF-ywo" firstAttribute="centerX" secondItem="V8p-GH-EV2" secondAttribute="centerX" id="MuX-M5-I7p"/>
                             <constraint firstItem="7Lr-Ys-Pkd" firstAttribute="centerX" secondItem="V8p-GH-EV2" secondAttribute="centerX" id="Tlo-Es-NYS"/>
                             <constraint firstItem="zuP-Zj-p4a" firstAttribute="centerX" secondItem="V8p-GH-EV2" secondAttribute="centerX" id="YJB-Pf-Crr"/>
@@ -251,6 +262,9 @@
                         <viewLayoutGuide key="safeArea" id="gtS-cw-5DW"/>
                     </view>
                     <connections>
+                        <outlet property="passwordTxt" destination="H0a-aD-d5G" id="3cq-bM-LGS"/>
+                        <outlet property="spinner" destination="wTf-ij-NKa" id="6e9-nN-Yru"/>
+                        <outlet property="username" destination="pxX-ya-Xv2" id="W7L-Lk-EUg"/>
                         <segue destination="ivq-ZN-R5A" kind="show" identifier="toCreateAccount" id="89P-KJ-2lr"/>
                     </connections>
                 </viewController>
